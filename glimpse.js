@@ -1,5 +1,4 @@
-return function(document){ "use strict";
-
+define([], function (){
 	// # Initialise
 	// Set a class-name when a .canvas() or .image() are used.
 	var classNames = {
@@ -372,5 +371,4 @@ return function(document){ "use strict";
 		getContext(canvas).drawImage(image, 0, 0, width,  height);
 		return canvas;
 	}
-
-}(document);
+});
